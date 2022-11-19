@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+    background-color: #B6C1D8;
+    margin: 0;
+}
+header{
+    background-color: #526387;
+    padding: 4vh;
+    margin: 0;
+    width: 100;
+    display: flex;
+    justify-content: end;
+    font-family: 'Roboto Slab', serif;
+}
+footer{
+    background-color: #526387;
+    margin: 0;
+    width: 100;
+    padding: 2vh;
+    color: #13264E;
+}
+img{
+    max-height: 200px;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: purple;
+}
+.main{
+    padding: 0px 6vh;
+}
+.siteName{
+    color: white;
+    position: absolute;
+    top: 2vh;
+    left: 0;
+    padding: 2vh 2vh;
+}
+
+.k1{
+    display: block;
+}
+#scrollOne{
+    color: white;
+    padding: 1vh;
+}
+#scrollTwo{
+    color: white;
+    padding: 1vh;
+}
+#scrollThree{
+    color: white;
+    padding: 1vh;
+}
+#scrollOne:active{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+    animation-duration: 500ms;
+    
+}
