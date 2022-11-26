@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto+Slab&display=swap');
 body{
     background-color: #B6C1D8;
     margin: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3vh;
 }
 header{
     background-color: #526387;
@@ -11,7 +13,9 @@ header{
     display: flex;
     justify-content: end;
     font-family: 'Roboto Slab', serif;
+    font-size: 2vh;
 }
+
 footer{
     background-color: #526387;
     margin: 0;
