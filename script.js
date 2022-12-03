@@ -11,3 +11,7 @@ links.forEach(function (element){
         })
     })
 })
+let button = document.querySelectorAll('.btn');
+button.addEventListener('click', function(){
+    alert('Не, эта кнопка не работает:)')
+})

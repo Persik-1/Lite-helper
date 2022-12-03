@@ -19,8 +19,8 @@ header{
 footer{
     background-color: #526387;
     margin: 0;
-    width: 100;
-    padding: 1vh 4vh;
+    
+    padding: 3vh 4vh;
     color: #13264E;
 }
 img{
@@ -39,26 +39,34 @@ h2{
     color: white;
 }
 .main{
-    padding: 0px 10vh;
-    width: 1000px;
+    padding: 0px 3vh;
+    width: 40vh;
 }
 .siteName{
     color: white;
     position: absolute;
     top: 2vh;
     left: 0;
-    padding: 2vh 2vh;
+    padding: 1.7vh 2vh;
 }
 
 .k1{
     display: block;
 }
-
+.english{
+    color: #6173da;
+}
 #invisible-button{
     background-color: #505a6e;
     position: absolute;
-    left: 1200px;
+    left: 100px;
     top: 200px;
     height: 1px;
     width: 1px;
+}
+@media (min-width: 1000px){
+    .main{
+        padding: 0px 8vh;
+        width: 80vh;
+    }
 }
