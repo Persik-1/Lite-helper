@@ -20,19 +20,27 @@ footer{
     background-color: #526387;
     margin: 0;
     width: 100;
-    padding: 2vh;
+    padding: 1vh 4vh;
     color: #13264E;
 }
 img{
-    max-height: 200px;
+    max-height: 20vh;
     max-width: 100%;
 }
 a{
     text-decoration: none;
     color: purple;
 }
+h2{
+    color: white;
+    padding: 1vh;
+}
+.scroll{
+    color: white;
+}
 .main{
-    padding: 0px 6vh;
+    padding: 0px 10vh;
+    width: 1000px;
 }
 .siteName{
     color: white;
@@ -45,24 +53,12 @@ a{
 .k1{
     display: block;
 }
-#scrollOne{
-    color: white;
-    padding: 1vh;
-}
-#scrollTwo{
-    color: white;
-    padding: 1vh;
-}
-#scrollThree{
-    color: white;
-    padding: 1vh;
-}
-#scrollOne:active{
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-out;
-    animation-duration: 500ms;
-    
+
+#invisible-button{
+    background-color: #505a6e;
+    position: absolute;
+    left: 1200px;
+    top: 200px;
+    height: 1px;
+    width: 1px;
 }
