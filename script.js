@@ -1,4 +1,7 @@
-
+let button = document.querySelectorAll('.btn');
+button.addEventListener('click', function(){
+    alert('Не, эта кнопка не работает:)')
+})
 let links = document.querySelectorAll('.scroll');
 let targetID;
 links.forEach(function (element){
@@ -10,8 +13,4 @@ links.forEach(function (element){
             block: 'start'
         })
     })
-})
-let button = document.querySelectorAll('.btn');
-button.addEventListener('click', function(){
-    alert('Не, эта кнопка не работает:)')
 })

@@ -1,14 +1,12 @@
 .bx-wrapper {
     width: 775px;
-    
+    height: 575px;
 }
 .slider-nav > div {
     float: left;
     border: 3px solid #fff;
 }
-img{
-    height: 100%;
-}
+
 .slider-nav > div a {
     display: block;
     cursor: pointer;
@@ -21,4 +19,8 @@ img{
 .min{
     width:10vw;
     
+}
+.rulet{
+    height: 575px;
+    width: 775px;
 }
